@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Driptime サポート / Support</title>
+<style>
+  /* Driptime は白と黒だけ(アプリの決まりと同じ)。ダークモードでは反転する */
+  :root { --text: #0a0a0a; --muted: #6b6b6b; --bg: #ffffff; --line: #e7e7e8; --card: #f4f4f5; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #f2f2f2; --muted: #9a9a9a; --bg: #0b0b0c; --line: #2a2a2c; --card: #1c1c1d; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", Meiryo, sans-serif;
+    line-height: 1.8; -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 22px 80px; }
+  .mark { width: 44px; height: 44px; border-radius: 10px; background: var(--card); display: block; margin: 0 0 16px; }
+  .eyebrow { color: var(--muted); font-weight: 700; letter-spacing: .08em; font-size: 13px; margin: 0 0 4px; }
+  h1 { font-size: 28px; margin: 0 0 20px; letter-spacing: -.01em; }
+  h2 { font-size: 18px; margin: 36px 0 8px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--text); }
+  nav.lang { font-size: 14px; margin: 0 0 28px; color: var(--muted); }
+  .contact { border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; background: var(--card); font-size: 17px; }
+  .contact a { font-weight: 700; }
+  .note { color: var(--muted); font-size: 14px; }
+  .q { font-weight: 700; margin: 20px 0 4px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 56px 0 40px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- アイコンと同じ形(上寄りの丸1つ) -->
+    <svg class="mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" style="fill: var(--card)"/><circle cx="50" cy="36" r="24" style="fill: var(--text)"/></svg>
+    <p class="eyebrow">Driptime</p>
+    <h1>サポート</h1>
+    <nav class="lang"><a href="#en">English</a></nav>
+
+    <p>Driptime(残り時間を液体の量で見せるタイマーとポモドーロのアプリ)をご利用いただきありがとうございます。ご質問・不具合のご報告・ご要望は、下記までお気軽にご連絡ください。</p>
+
+    <div class="contact">
+      お問い合わせ: <a href="mailto:chisato.dev.inc@gmail.com">chisato.dev.inc@gmail.com</a><br>
+      <span class="note">返信までに数日いただく場合があります。アプリの「設定」→「アプリ情報」→「フィードバックを送信」からも送れます。</span>
+    </div>
+
+    <h2>よくある質問</h2>
+
+    <p class="q">Q. 残り時間はどのように決まりますか？</p>
+    <p>日は今日の終わり(午前0時)まで、週・月・年はそれぞれの終わりまでの残りです。週の始まり(日曜・月曜)は「設定」で選べます。一生は、生まれた年と月、想定する寿命から計算します。</p>
+
+    <p class="q">Q. 「一生」の残りが表示されません</p>
+    <p>「設定」→「年齢」で、生まれた年と月を設定してください。想定する寿命も「設定」で変えられます。</p>
+
+    <p class="q">Q. ポモドーロの通知が届きません</p>
+    <p>iPhone の「設定」→「通知」→「Driptime」で、通知が許可されているか確かめてください。効果音はマナーモードのときは鳴りません。</p>
+
+    <p class="q">Q. 記録はほかの端末と同期されますか？</p>
+    <p>記録と設定は、お使いの端末の中だけに保存されます。アプリを削除すると記録も削除されますのでご注意ください。</p>
+
+    <p class="q">Q. Driptime Pro とは？</p>
+    <p>月額のサブスクリプションか買い切りで購入すると、次の機能が使えます。購入は、アプリの「設定」の一番上の「Driptime Pro」から行えます。</p>
+    <p>・タイマーの集中・休憩の時間を変える、大休憩を入れる<br>
+      ・タイマーを15個まで作る(無料では3個まで)<br>
+      ・1日の目標の集中時間を決める<br>
+      ・効果音を選ぶ<br>
+      ・ホーム画面とロック画面のウィジェット</p>
+
+    <p class="q">Q. 購入を復元したい</p>
+    <p>「設定」→「Driptime Pro」→「購入を復元」から、いつでも復元できます。</p>
+
+    <p class="q">Q. 月額プランを解約したい</p>
+    <p>「設定」→「Driptime Pro」→「サブスクリプションを管理」か、iPhone の「設定」→ 自分の名前 →「サブスクリプション」から解約できます。期間が終わる24時間以上前に解約すると、次の更新は行われません。</p>
+
+    <hr>
+
+    <section id="en" lang="en">
+      <p class="eyebrow">Driptime</p>
+      <h1>Support</h1>
+
+      <p>Thank you for using Driptime, a timer and Pomodoro app that shows your time left as liquid. For questions, bug reports, or requests, please contact us at the address below.</p>
+
+      <div class="contact">
+        Contact: <a href="mailto:chisato.dev.inc@gmail.com">chisato.dev.inc@gmail.com</a><br>
+        <span class="note">It may take a few days to reply. You can also write to us from Settings → About → Send Feedback in the app.</span>
+      </div>
+
+      <h2>FAQ</h2>
+
+      <p class="q">How is the time left calculated?</p>
+      <p>Day shows the time left until midnight. Week, Month, and Year show the time left until each one ends. You can choose whether the week starts on Sunday or Monday in Settings. Life is based on your birth year and month and the lifespan you set.</p>
+
+      <p class="q">"Life" doesn't show the time left</p>
+      <p>Set your birth year and month in Settings → Age. You can also change the lifespan in Settings.</p>
+
+      <p class="q">I don't get Pomodoro notifications</p>
+      <p>Make sure notifications are allowed in the iPhone Settings app → Notifications → Driptime. Sounds don't play when your iPhone is in Silent Mode.</p>
+
+      <p class="q">Do my records sync to other devices?</p>
+      <p>Your records and settings are stored only on your device. If you delete the app, your records are deleted too.</p>
+
+      <p class="q">What is Driptime Pro?</p>
+      <p>Driptime Pro is available as a monthly subscription or a one-time purchase. You can buy it from Driptime Pro at the top of Settings. It includes:</p>
+      <p>• Change focus and break lengths, and add long breaks<br>
+        • Create up to 15 timers (3 for free)<br>
+        • Set a daily focus goal<br>
+        • Choose your sound<br>
+        • Home Screen and Lock Screen widgets</p>
+
+      <p class="q">How do I restore my purchase?</p>
+      <p>Go to Settings → Driptime Pro → Restore Purchases.</p>
+
+      <p class="q">How do I cancel the monthly plan?</p>
+      <p>Go to Settings → Driptime Pro → Manage Subscription, or open the iPhone Settings app → your name → Subscriptions. If you cancel at least 24 hours before the end of the current period, it won't renew.</p>
+    </section>
+
+    <footer>
+      © 2026 Driptime ・ <a href="./privacy.html">プライバシーポリシー / Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
